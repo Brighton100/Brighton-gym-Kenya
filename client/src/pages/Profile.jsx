@@ -130,17 +130,17 @@ const Profile = () => {
           maxLength="35"
         />
 
-        <Input type="text"
-          placeholder="Phone"
-          name="phone"
-          value={contact}
-          onChange={(e) => setContact(e.target.value)}
-          // pattern="9[0-9]{9}" // Ensure the number starts with 9 and contains a total of 10 digits
-          // title="Please enter a valid 10-digit phone number starting with 9"
-          // pattern="[0-9]+"
-          // minLength="10"
-          // maxLength="10"
-        />
+   <Input
+  type="tel"
+  placeholder="Phone"
+  name="phone"
+  value={contact}
+  onChange={(e) => setContact(e.target.value)}
+  pattern="^(?:\+254|0)?7\d{8}$"
+  title="Enter a valid Kenyan phone number (e.g., 07XXXXXXXX or +2547XXXXXXXX)"
+  required
+/>
+
 
         <button type='submit' className='btn px-5 py-2 font-normal outline-none border border-white rounded-sm text-xl text-white hover:text-black hover:bg-white transition-all ease-in w-full max-w-[750px]' >Update</button>
       </form>
