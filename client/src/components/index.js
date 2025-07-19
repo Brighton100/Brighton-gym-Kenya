@@ -29,4 +29,6 @@ import ContactComponent from "./admin/ContactComponent";
 import FeedbackComponent from "./admin/FeedbackComponent";
 import Loader from "./Loader";
 import Modal from "./Modal";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import axios from 'axios';
 export {Header, Footer,Hero, Heading, Plan, Plans, Trainers, Trainer, Reviews, Review, FAQ, ScrollButton, FaqComponent, ButtonOutline, Button, Input, TextArea, ExerciseCard, ExerciseVideos, BodyPart, SearchInput, Spinner, AdminRoute, PrivateRoute, PlanForm, Subscription, User, ContactComponent, FeedbackComponent, Loader, Modal};

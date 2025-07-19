@@ -41,11 +41,11 @@ const Register = () => {
       return;
     }
 
-    const phoneNumberPattern = /^(9|8|7|6)\d{9}$/;
-    if (!phoneNumberPattern.test(contact)) {
-      toast.error("Phone number must start with 9, 8, 7, or 6 and contain exactly 10 digits");
-      return;
-    }
+   const phoneNumberPattern = /^\d{10}$/;
+if (!phoneNumberPattern.test(contact)) {
+  toast.error("Phone number must contain exactly 10 digits");
+  return;
+}
 
     console.log(name, password, email, city, contact);
 

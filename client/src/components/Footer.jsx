@@ -32,28 +32,39 @@ const Footer = () => {
               Submit
             </button>
           </div>
+   <div className="social-icons space-y-2 text-white">
+  <h2 className="text-2xl font-semibold mb-2">Follow Us</h2>
 
-          {/* Social Media Links */}
-          <div className='flex flex-col gap-4'>
-            <h2 className='text-2xl font-semibold'>Follow Us</h2>
-            <ul className='space-y-2'>
-              <li>
-                <a href="#" className='text-lg text-gray-300 hover:text-indigo-500 transition-all'>Twitter</a>
-              </li>
-              <li>
-                <a href="#" className='text-lg text-gray-300 hover:text-indigo-500 transition-all'>Facebook</a>
-              </li>
-              <li>
-                <a href="#" className='text-lg text-gray-300 hover:text-indigo-500 transition-all'>Instagram</a>
-              </li>
-              <li>
-                <a href="#" className='text-lg text-gray-300 hover:text-indigo-500 transition-all'>LinkedIn</a>
-              </li>
-              <li>
-                <a href="#" className='text-lg text-gray-300 hover:text-indigo-500 transition-all'>GitHub</a>
-              </li>
-            </ul>
-          </div>
+  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+    <i className="fa-brands fa-facebook mr-2"></i> Facebook
+  </a>
+  <br />
+
+  <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
+    <i className="fa-brands fa-twitter mr-2"></i> Twitter
+  </a>
+  <br />
+
+  <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+    <i className="fa-brands fa-linkedin mr-2"></i> LinkedIn
+  </a>
+  <br />
+
+  <a href="https://www.github.com/" target="_blank" rel="noreferrer">
+    <i className="fa-brands fa-github mr-2"></i> GitHub
+  </a>
+  <br />
+
+  <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">
+    <i className="fa-brands fa-tiktok mr-2"></i> TikTok
+  </a>
+  <br />
+
+  <a href="https://wa.me/254706238175" target="_blank" rel="noreferrer">
+    <i className="fa-brands fa-whatsapp mr-2"></i> WhatsApp
+  </a>
+</div>
+
 
           {/* Sponsor Logos */}
           <div className='flex flex-col gap-4'>
