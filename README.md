@@ -4,7 +4,9 @@
 
 **Live Deployment:**
 - 🌐 Frontend: [https://brighton-gym-app.vercel.app/](https://brighton-gym-app.vercel.app/) (Hosted on Vercel)
-Backend runs on localhost5000
+
+- 
+Backend runs on: http://localhost:5000"
 ---
 
 ## 🛠️ Technologies Used
